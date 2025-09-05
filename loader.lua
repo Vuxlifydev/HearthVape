@@ -1,5 +1,5 @@
 local modules = {
-    [16522953236] = "PoisonCandy"
+    [78771808593634] = "PoisonCandy"
 }
 
 local function loadModule(name)
