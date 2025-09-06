@@ -23,8 +23,8 @@ if game.PlaceId == 78771808593634 then
     task.delay(4, function()
         gui:Destroy()
 
-        -- Load actual GUI from separate script
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Vuxlifydev/HearthVape/main/Modules/PoisonCandy.lua"))()
+        -- Load actual GUI from lowercase modules folder
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Vuxlifydev/HearthVape/main/modules/PoisonCandy.lua"))()
     end)
 else
     warn("Hearthvape: Wrong game. This script is for Poison Candy.")
